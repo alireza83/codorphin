@@ -1,1 +1,1 @@
-web: gunicorn codorphin.wsgi
+web: gunicorn codorphin.wsgi --log-file -
